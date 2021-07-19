@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>KrustyKrabs Restaurant</title>
+        <link rel="stylesheet" href="main.css" /><!--i wrote this -->
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.css" /><!--I didn't write this file-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="shortcut icon" href="img/krub.png" />
+    </head>
+    <body>
+            <audio autoplay>
+            <source src="audio/music.mp3" type="audio/mpeg"  >
+          </audio>
+        <div id="pppp"></div>
+          <div id="ppp">
+            <!--Home Interface-->
+            <div class="home-container">
+                <div class="shadow-container">
+                    <header>
+                        <nav class="nav">
+                            <a id="title" href="index.html">KrustyKrabs</a>
+                        </nav>
+                        <nav class="navbar">
+                            <a href="#">Home</a>
+                            <a href="#">Order</a>
+                            <a href="#">Signature Plate</a>
+                            <a href="#">Signature Drink</a>
+                            <a href href="#">About</a>
+                            <a class="signin" href="login/login.html">Sign In</a>&nbsp;&nbsp;
+                            <a class="signup" href="create/signup.html">Sign Up</a>
+                            <a class="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+                        </nav>
+                        <button class="nv"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                    </header>
+                    <div class="home-text">
+                        <p>CHECK or VISIT our restaurant or<br/>Download our APP so you can order from home<br/><a class="explorebtn" href="#common-food">Explore More</a></p>
+                    </div>
+                </div>
+                
+            </div>
+            <main class="common-food" id="common-food">
+            </main>
+            <div class="discount-container">  
+                <b id="dst">Our Discounts</b>
+                <img src="img/krub.png" />
+                <br/><br/>
+                <div class="news"><marquee><p>Buy one KRUSTY Pizza and get one slice of tomato and a picture of Mr Krabs itself <i class="fa fa-smile-o" aria-hidden="true"></i>  |  Get three Burgers and the fourth one is completely for FREE, Just kidding AYAYAYAYAYAYAYAYAYAY | Buy more than one food and get discount of 5% OFF</p></marquee></div>
+            </div>
+            <div class="contact-container">
+                <p id="con">Contact US : at least say <b style="color:rgb(177, 3, 3);">hello world!</b></p>
+                <form action="" method="POST">
+                    <input type="text" placeholder="Your Full Name"  />
+                    <input type="number" placeholder="Your PhoneNumer"  />
+                    <input type="text" placeholder="Your E@mail Adress"  />
+                    <input type="text" placeholder="Subject"  />
+                    <textarea placeholder="Your Message"></textarea>
+                    <br/>
+                    <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send</button>
+                <p id="con" style="color:rgb(177, 3, 3)"><b>Our Location : Bikini Bottom</b></p>
+                </form>
+        </div>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71924.64585483898!2d-1.3645076133049296!3d55.712539034580246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDQxJzU1LjkiTiAxwrAyMic0OS4wIlc!5e0!3m2!1sen!2stn!4v1610930896470!5m2!1sen!2stn" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>        <!--My Signature Footer-->
+        
+        <footer>
+            <div class="damn">
+                <div class="ft" id="scl">
+                    <img src="img/krub.png" id="lll" />
+                    <br/>
+                    <b id="ftlogo">KrustyKrabs</b>
+                    <br /><br/>
+
+                    <script type="text/javascript">
+                        const scl = document.getElementById("scl");
+                        var p;
+                        l = [
+                            `<a href="#" id="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>`,
+                            `<a href="#" id="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>`,
+                            `<a href="#" id="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>`
+                        ];
+                        for (p = 0; p < 3; p++) {
+                            scl.innerHTML += l[p];
+                        }
+                    </script>
+                </div>
+
+                <div class="ft" id="support">
+                    <b id="sutitle">Support</b>
+                    <br />
+                    <script type="text/javascript">
+                        const support = document.getElementById("support");
+                        var d;
+                        var lis = [
+                            `<a href="#">Report</a>`,
+                            `<a href="#">FAQ</a>`,
+                            `<a href="#">Rules</a>`,
+                            `<a href="#">Help</a>`,
+                            `<a href="#">About</a>`
+                        ];
+                        for (d = 0; d < lis.length; d++) {
+                            support.innerHTML += lis[d];
+                        }
+                    </script>
+                </div>
+
+                <div class="ft" id="links">
+                    <b id="sutitle">Links</b>
+                    <br />
+                    <script type="text/javascript">
+                        const linki = document.getElementById("links");
+                        var t;
+                        var list = [
+                            `<a href="index.html">Home</a>`,
+                            `<a href="order/index.html">Order</a>`,
+                            `<a href="#">Signature Plate</a>`,
+                            `<a href="#">Signature Drink</a>`,
+                            `<a href="#">About</a>`
+                        ];
+                        for (t = 0; t < list.length; t++) {
+                            linki.innerHTML += list[t];
+                        }
+                    </script>
+                </div>
+
+                <div class="ft" id="news">
+                    <form action="" method="POST">
+                        <input type="text" placeholder="Subscribe To News Letters" />
+                        <br />
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+
+
+            </div>
+            <b id="copy">Designed with <i style="color:#ff0000;" class="fa fa-heart" aria-hidden="true"></i> by
+                &copy; <a style="color:#fff;" target="_blank" href="https://instagram.com/onlymachiavelli">Alaa Barka</a></b>
+        </footer>
+    </div>
+        <script src="jquery.js"></script><!--I didnt write this file-->
+        <script src="functions.js"></script><!--I wrote this file-->
+        <script>
+            $(document).ready(function(){
+                $(".nv").click(function(){
+                    $(".navbar").slideToggle();
+
+                })
+                $(".close").click(function(){
+                    $(".navbar").slideToggle();
+                })
+                
+            })
+        </script><!--I wrote this code-->
+    </body>
+</html>

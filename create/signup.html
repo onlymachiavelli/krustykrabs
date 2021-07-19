@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--I wrote all of these codes-->
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="main.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Login | KrustyKrabs Restaurant</title>
+        <link rel="shorctut icon" href="../img/krub.png" />
+        <link rel="stylesheet" href="../font-awesome/css/font-awesome.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="un-container">
+                
+                    <div class="profile">
+                        <div class="shd">
+                            <button class="add" onclick="add()">
+                                <i class="fa fa-plus-square" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <form action="" method=""></form>
+                    <p id="title">Login To <b>KrustyKrubs</b></p>
+                    <input type="text" name="" placeholder="User Name" />
+                    <input type="text" name="" placeholder="Phone Number" />
+                    <input type="text" name="" placeholder="Email Adress" />
+                    <input type="password" name="" placeholder="Password" />
+                    <button type="submit">Create</button>
+                    <a href="../login/login.html">Sign In</a>
+                    <br/>
+                    <a href="../index.html" id="back"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></a>
+                </form>
+            </div>
+        </div>
+        <input type="file" id="add"  accept="image/png, image/jpeg" />
+        
+
+        <script src="../jquery.js" ></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".add").click(function(){
+                    $("#add").click();
+                })
+            })
+            </script>
+    </body>
+</html>

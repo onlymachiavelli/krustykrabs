@@ -1,0 +1,139 @@
+/*i wrote all of these codes*/
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: sofia;
+  src: url("../fonts/sofia/Sofia-Regular.ttf");
+}
+@font-face {
+  font-family: dancin;
+  src: url("../fonts/dancin/DancingScript-VariableFont_wght.ttf");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.un-container {
+  width: 600px;
+  height: auto;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 50px 0px #000;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.918);
+  text-align: center;
+  overflow: hidden;
+  padding: 20px 0px 20px 0px;
+}
+.profile {
+  width: 150px;
+  height: 150px;
+  background: url("../img/krub.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  margin: auto;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.shd {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.781);
+}
+#title {
+  color: #fff;
+  font-family: "sofia";
+  font-size: 25px;
+}
+#title b {
+  color: rgb(177, 3, 3);
+}
+input {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px !important;
+  width: 370px;
+  border: none;
+  padding: 13px;
+  font-family: "sofia";
+  font-size: 15px;
+  outline: 0;
+  box-shadow: 0px 0px 10px 0px #fff;
+}
+.add {
+  background: none !important;
+  border: none !important;
+  font-size: 30px;
+  color: rgb(177, 3, 3);
+  box-shadow: none !important;
+  width: auto !important;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto !important;
+  margin: auto !important;
+}
+button {
+  display: block;
+  margin: auto;
+  width: 200px;
+  color: #fff;
+  background: rgb(177, 3, 3);
+  font-family: "sofia";
+  border: none;
+  box-shadow: 0px 0px 10px 0px #fff;
+  font-size: 17px;
+  margin-top: 25px !important;
+  margin-bottom: 25px;
+  height: 50px;
+}
+a {
+  color: #fff;
+  display: block;
+  font-family: "sofia";
+  font-size: 17px;
+}
+#back {
+  color: rgb(177, 3, 3);
+  font-size: 30px;
+}
+
+@media (max-width: 820px) {
+  .un-container {
+    width: 90%;
+  }
+}
+@media (max-width: 506px) {
+  input {
+    width: 85%;
+    padding: 7px;
+    font-size: 13px;
+  }
+  a {
+    font-size: 13px;
+  }
+  .profile {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+input,
+button {
+  outline: 0;
+}
